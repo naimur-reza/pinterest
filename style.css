@@ -1,6 +1,5 @@
 *{
-    padding: ;
-    margin: ;
+
 }
 .nav-container{
     display: flex;
@@ -41,4 +40,8 @@
 .normal {
     grid-row: auto / span 1;
     grid-column: auto /span 2;
+}
+
+.vertical:hover img{
+   opacity: 0.5;
 }

@@ -21,7 +21,7 @@
 .container {
     display: grid;
  
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     gap: 17px;
     grid-auto-flow: dense;
     margin-top: 50px;
@@ -48,9 +48,15 @@
 .vertical:hover img{
    opacity: 0.5;
 }
+.normal:hover img{
+   opacity: 0.5;
+}
 .vertical:hover h6{
    
    display: block;
+}
+.vertical:hover i{
+    visibility: visible;
 }
 h6{
     position: absolute;
@@ -62,3 +68,13 @@ h6{
     right: 16px;
     display: none;
   }
+
+i{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    color: white;
+    font-size: 25px;
+    visibility: hidden;
+    margin: 10px;
+}
